@@ -1,0 +1,56 @@
+<?php
+
+include ('header.php');
+
+// $pdo = new PDO('mysql:host=lanydrakblog.mysql.db;dbname=lanydrakblog', 'lanydrakblog', 'Drakblog18');
+// $pdo->exec('SET NAMES UTF8');
+
+// if ($_GET['categorie'] == null)
+// {
+// 	$query = $pdo->prepare(
+//     'SELECT *
+//     FROM articles
+//     ORDER BY creationTimestamp DESC'
+// 	);
+
+// 	$query->execute();
+// 	$articles = $query->fetchAll(PDO::FETCH_ASSOC);
+// } else{
+
+// 	$selectCategorie = $_GET['categorie'];
+
+// 	$query = $pdo->prepare(
+// 	    "SELECT *
+// 	    FROM articles
+// 	    WHERE categorie = '$selectCategorie'
+// 	    ORDER BY creationTimestamp DESC"
+// 	    );
+
+// 	$query->execute();
+// 	$articles = $query->fetchAll(PDO::FETCH_ASSOC);
+// }
+
+
+
+###############################################
+
+// $idArticle = $_GET['id'];
+
+// $sql =
+//     'SELECT *
+//     FROM articles
+//     WHERE id = ?';
+
+// $query = $pdo->prepare($sql);
+
+// $query->execute(array($idArticle));
+// $article = $query->fetch(PDO::FETCH_ASSOC);
+
+
+
+
+
+
+###############################################
+
+include ($template.'.php');
